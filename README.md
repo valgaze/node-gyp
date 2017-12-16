@@ -51,6 +51,9 @@ You will also need to install:
 
 Install all the required tools and configurations using Microsoft's [windows-build-tools](https://github.com/felixrieseberg/windows-build-tools) using `npm install --global --production windows-build-tools` from an elevated PowerShell or CMD.exe (run as Administrator).
 
+(Note: If you don't already have Python installed you will need to perform one additional step of adding python to your shell. windows-build-tools saves all its data on the path ```c:/Users/$username/.windows-build-tools```. Go to the start menu and search for *"environmental variables"* and select **"Edit environment variables for your account"** On the Environmental Variables page popup select *Path* in the "User viarables for $user" panel and then click edit to add the python path to your system's shell.)
+
+
 #### Option 2
 
 Install tools and configuration manually:
